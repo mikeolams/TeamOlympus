@@ -43,18 +43,18 @@ You may watch a video guide here: https://egghead.io/lessons/javascript-how-to-f
 
 ## Team Olympus:
 ###Frontend
-1 @Kai
-2 @Ashioma Medi
-3 @Kobi.js
-4 @Sopulu
+1. @Kai
+2. @Ashioma Medi
+3. @Kobi.js
+4. @Sopulu
 ###Backend
-5 @Bullion
-6 @GMike
-7 @emmanNl
-8 @Calvin
+5. @Bullion
+6. @GMike
+7. @emmanNl
+8. @Calvin
 ###Design
-9 @Uduak
-10 @Bibi Ofuya
+9. @Uduak
+10. @Bibi Ofuya
 
 
 ## For viewers: If you just want to explore and see how this site look.
