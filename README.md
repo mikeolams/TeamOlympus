@@ -42,16 +42,19 @@ You may watch a video guide here: https://egghead.io/lessons/javascript-how-to-f
     Then open index.html file with any browser to view the work done and you can go ahead edit and contribute as reqired. NOTE to contribute see ```How to Contribute to this Projects```;
 
 ## Team Olympus:
-1. Ghubname position
-2. Ghubname position
-3. Ghubname position
-4. name position
-5. name position
-6. name position
-7. name position
-8. name position
-9. name position
-10. name position
+###Frontend
+1 @Kai
+2 @Ashioma Medi
+3 @Kobi.js
+4 @Sopulu
+###Backend
+5 @Bullion
+6 @GMike
+7 @emmanNl
+8 @Calvin
+###Design
+9 @Uduak
+10 @Bibi Ofuya
 
 
 ## For viewers: If you just want to explore and see how this site look.
