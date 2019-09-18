@@ -93,3 +93,7 @@ left: 890px;
       a{
         text-decoration: none;
       }
+      ul.errors  {
+        list-style-type: none;
+        color: red;
+      }
