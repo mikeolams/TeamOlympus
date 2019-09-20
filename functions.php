@@ -63,6 +63,13 @@ function login() {
 function register() {
     $errors = [];
 
+   if (empty($_POST['name']) || strlen($_POST['name']) < 4) {
+       $errors[] = "Please provide a Name, of at less 4 characters.";
+   } else {
+        // Sanitise the name
+        $input['name'] = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
+   }
+
     $input['email'] = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
 
     if (empty($input['email'])) {

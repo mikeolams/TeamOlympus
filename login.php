@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </ul>
         <?php endif ?>
         <form method="post">
-            <label> Email Address: <input class="type1" name="email" type="text" value="email" placeholder="your email address" autofocus /> </label>
+            <label> Email Address: <input class="type1" name="email" type="text" value="<?= $_POST['email'] ?? '' ?>" placeholder="your email address" autofocus /> </label>
                <label> Password: <input class="type2" name= "password" type="password" placeholder="password" autofocus/> </label>
                <div class="lower">
                   <label> <input class="type3" name="checkbox" type="checkbox"/> Remember Me</label>
