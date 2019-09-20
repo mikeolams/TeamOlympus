@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
   <head>
       <meta charset="utf-8">
       <title>Team Olympus Users Registration Page</title>
-      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="reset.css">
       <link rel="stylesheet" href="registration.css">
       <link href="https://fonts.googleapis.com/css?family=Chilanka|Montserrat|Quicksand&display=swap" rel="stylesheet">
   </head>
