@@ -104,7 +104,7 @@
   padding: 0;
 }
 
-.main-section fieldset input[type="submit"] {
+.main-section fieldset input[type="submit"], .main-section fieldset input[type="button"] {
   padding: 3% 5%;
   width: 75%;
   border-radius: 3em;
