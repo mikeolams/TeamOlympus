@@ -24,7 +24,11 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
   <head>
       <meta charset="utf-8">
       <title>Team Olympus Users Registration Page</title>
+<<<<<<< HEAD
       <!-- <link rel="stylesheet" href="reset.css"> -->
+=======
+      <link rel="stylesheet" href="reset.css">
+>>>>>>> bccf6f56e585b7f61d9e282aff6b2f378b4ee037
       <link rel="stylesheet" href="Registration.css">
       <link href="https://fonts.googleapis.com/css?family=Chilanka|Montserrat|Quicksand&display=swap" rel="stylesheet">
   </head>
@@ -51,6 +55,18 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
             </ul>
           <?php endif ?>
             <form method="post" class="Sign in" id="log in">
+                <fieldset class="main-name">
+                    <label for="Sign in email">Name</label>
+                    <input class="email"
+                          name="name" 
+                           id="name"
+                           type="text"
+                           value="<?= $_POST['name'] ?? '' ?>" 
+                           placeholder="your name"
+                           required
+                           data-content="Your name is required" />
+                </fieldset>
+
                 <fieldset class="main-email">
                     <label for="Sign in email">Email Address</label>
                     <input class="email"
