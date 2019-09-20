@@ -7,7 +7,7 @@ function login() {
 
     // If email is not set, or invalid
     if (! $input['email']) {
-        $errors[] = "Please provide a valid emil address";
+        $errors[] = "Please provide a valid email address";
     }
 
     // Since an invalid email ws provided, 
@@ -58,6 +58,48 @@ function login() {
     return [$errors, $user_data];
 
             
+}
+
+function register() {
+    $errors = [];
+
+    $input['email'] = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+
+    if (empty($input['email'])) {
+        $errors[] = "Please provide a valid email.";
+    }
+
+    $input['password'] = $_POST['password'];
+    if (strlen($input['password']) < 4) {
+        $errors[] = "Please provide a password not less than 4 characters";
+    }
+
+    if (!empty($errors)) {
+        return [
+            $errors, []
+        ];
+    }
+
+    $users = get_users();
+
+    foreach ($users as $user) {
+        if ($user['email'] == $input['email']) {
+            $errors[] = "Email already in use";
+            break;
+        }
+    }
+    if (!empty($errors)) {
+        return [$errors, []];
+    }
+
+    $input['password'] = password_hash($input['password'], PASSWORD_DEFAULT);
+    $users[] = $input;
+   
+   file_put_contents('users.json', json_encode($users));
+  
+  return [
+    [], $input,
+  ];
 }
 
 
