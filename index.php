@@ -13,7 +13,9 @@ if (empty($_SESSION['user'])) {
 </head>
 <body>
     <h2>
-        Hello <?= $_SESSION['user']['email'] ?>
+        Hello <?= $_SESSION['user']['name'] ?>
+        <br>
+        <strong>Email </strong> <?= $_SESSION['user']['email'] ?>
     </h2>
     <a href="logout.php">Logout</a>
 </body>
