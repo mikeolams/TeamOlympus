@@ -76,7 +76,7 @@
   margin: 0;
 }
 
-.main-section fieldset input[type="email"], .main-section fieldset input[type="password"] {
+.main-section fieldset input[type="email"], .main-section fieldset .name, .main-section fieldset input[type="password"] {
   width: 85%;
   height: 3em;
   border-radius: 0.3em;
@@ -84,7 +84,7 @@
   border-color: #797979;
 }
 
-.main-section fieldset input[placeholder="your email address"], .main-section fieldset input[placeholder="password"] {
+.main-section fieldset input[placeholder="your email address"],.main-section fieldset input[placeholder="your name"], .main-section fieldset input[placeholder="password"] {
   padding: 0 0 0 1em;
 }
 

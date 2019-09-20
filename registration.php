@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
             <form method="post" class="Sign in" id="log in">
                 <fieldset class="main-name">
                     <label for="Sign in email">Name</label>
-                    <input class="email"
+                    <input class="name"
                           name="name" 
                            id="name"
                            type="text"
