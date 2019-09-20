@@ -3,3 +3,4 @@
 // then redirect to login screen
 unset($_SESSION['user']);
 header("location: login.php");
+?>
