@@ -1,22 +1,32 @@
 body{
     background: white;
 }
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap
+}
+
+.login-container{
+  margin: auto
+}
 img{
-    position: absolute;
+    /* position: absolute; */
     width:600px;
     height: 500px;
-    left: 15px;
-    top: 9px;
+    /* left: 15px; */
+    /* top: 9px; */
 }
-.firstParagraph{
-  position: relative;
-  left: 890px;
+ .firstParagraph, .secondParagraph{
+  text-align: center
 }
+/*
 .secondParagraph{
 position: relative;
 margin-top: -30px;
 left: 890px;
-}
+} */
 .paragraph1{
   font-size: 38px;
   color: #005FCE;
@@ -28,17 +38,17 @@ left: 890px;
   z-index:1;
 }
 .container{
-    float: right;
+    /* float: right; */
         border-radius: 5px;
         box-shadow:0 1px 2px #555;
-        position: absolute;
-        z-index: 3;
+        /* position: absolute; */
+        /* z-index: 3; */
         width: 350px;
         height:350px;
-        top: 50%;
-        left:75%;
-        margin-top: -140px;
-        margin-left: -170px;
+        /* top: 50%; */
+        /* left:75%; */
+        /* margin-top: -140px; */
+        /* margin-left: -170px; */
       }
       form{
         margin: 0 auto;
