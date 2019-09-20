@@ -1,18 +1,19 @@
 * {
  font-family: 'Montserrat', sans-serif;
 }
-
-/* .left {
+.left {
   background-image: url(https://res.cloudinary.com/kai123/image/upload/v1568979793/register_wschbu.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  border-radius:2px;
   padding: 3%;
   text-align: center;
   float: left;
-  height: 100vh;
-  width: 50%;
-} */
+  height: 83vh;
+  width: 48%;
+  color:red;
+} 
 
 .left h1 {
   font-size: 200%;
@@ -21,7 +22,7 @@
 }
 
 .main-section {
-  width: 50%;
+  width: 46%;
   float: right;
   height: 100vh;
 }
@@ -43,6 +44,7 @@
   color: #005FCE;
   text-align: center;
   padding: 1%;
+  border-radius:2px;
 }
 
 .main-section div p {
@@ -104,7 +106,7 @@
   padding: 0;
 }
 
-.main-section fieldset input[type="submit"], .main-section fieldset input[type="button"] {
+.main-section fieldset input[type="submit"] {
   padding: 3% 5%;
   width: 75%;
   border-radius: 3em;
