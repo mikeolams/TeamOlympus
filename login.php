@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </head>
     <body>
       <main class='main-container'>
-      <div class="svg"> <img src="https://res.cloudinary.com/kai123/image/upload/v1568848018/HNG/HNG_task1_z4pzu9.png"/> </div>
+      <div class="svg"> <img src="https://res.cloudinary.com/kai123/image/upload/v1568972266/HNG/vector2_pfzlhx.png"/> </div>
       <div class='login-container'>
         <div class="firstParagraph">
           <p class="paragraph1">Welcome Back!</p
@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                <div class="button">
                         <input class="type4" type="submit" value="Sign In"/> </div>
                         <div class="lower2">
-                            <p class="lower3"> Don't have an account? <a href="#">Sign up</a></p></div>
+                            <p class="lower3"> Don't have an account? <a href="Registration.html">Sign up</a></p></div>
                         </div>
                    </form>
                   </div>
