@@ -15,5 +15,6 @@ if (empty($_SESSION['user'])) {
     <h2>
         Hello <?= $_SESSION['user']['email'] ?>
     </h2>
+    <a href="logout.php">Logout</a>
 </body>
 </html>
