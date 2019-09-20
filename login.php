@@ -23,13 +23,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-      <div class="svg"> <img src="undraw.svg"/> </div>
-      <div class="firstParagraph">
+      <main class='main-container'>
+      <div class="svg"> <img src="https://res.cloudinary.com/kai123/image/upload/v1568848018/HNG/HNG_task1_z4pzu9.png"/> </div>
+      <div class='login-container'>
+        <div class="firstParagraph">
           <p class="paragraph1">Welcome Back!</p
             ></div>
       <div class="secondParagraph"><p class="paragraph2">Sign in to your account</p></div>
       <div class="container">
-        <?php if(!empty($errors)): ?>
+      <?php if(!empty($errors)): ?>
             <ul class="errors">
                 <h4>Correct the following errors:</h4>
             <?php foreach($errors as $errors): ?>
@@ -38,19 +40,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </ul>
         <?php endif ?>
         <form method="post">
-          <label> Email Address: <input class="type1" name="email" type="text" value="<?= $_POST['email'] ?? '' ?>" placeholder="Your email address" autofocus /> </label>
-              <label> Password: <input class="type2" name= "password" type="password" placeholder="Password" autofocus/> </label>
-              <div class="lower">
-                <label> <input class="type3" name="checkbox" type="checkbox"/> Remember Me</label>
-              <div class="button">
-                <input class="type4" type="submit" value="Sign In"/> 
-              </div>
-                <div class="lower2">
-                  <p class="lower3"> Don't have an account? <a href="#">Sign up</a></p>
+            <label> Email Address: <input class="type1" name="email" type="text" value="email" placeholder="your email address" autofocus /> </label>
+               <label> Password: <input class="type2" name= "password" type="password" placeholder="password" autofocus/> </label>
+               <div class="lower">
+                  <label> <input class="type3" name="checkbox" type="checkbox"/> Remember Me</label>
+               <div class="button">
+                        <input class="type4" type="submit" value="Sign In"/> </div>
+                        <div class="lower2">
+                            <p class="lower3"> Don't have an account? <a href="#">Sign up</a></p></div>
+                        </div>
+                   </form>
+                  </div>
                 </div>
-              </div>
-          </form>
-           
-      </div>
+           </main>
     </body>
 </html>
