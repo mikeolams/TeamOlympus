@@ -1,0 +1,334 @@
+* {
+ font-family: 'Montserrat', sans-serif;
+}
+
+.left {
+  background-image: url(https://res.cloudinary.com/kai123/image/upload/v1568848018/HNG/HNG_task1_z4pzu9.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 3%;
+  text-align: center;
+  float: left;
+  height: 100vh;
+  width: 50%;
+}
+
+.left h1 {
+  font-size: 200%;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.main-section {
+  width: 50%;
+  float: right;
+  height: 100vh;
+}
+
+.welcome {
+  padding: 2%;
+}
+
+.main-section div h3 {
+  font-weight: auto;
+  font-size: 200%;
+  font-family: 'Montserrat', cursive;
+  color: #005FCE;
+  text-align: center;
+  padding: 1%;
+}
+
+.main-section div p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 150%;
+  text-align: center;
+  font-weight: lighter;
+  padding: 0.3em 0 0 0;
+}
+
+.main-section article {
+  padding: 1% 1% 1% 12%;
+}
+
+.main-section fieldset {
+  border: none;
+  padding: 1% 7% 1% 7%;
+  text-decoration: none;
+}
+
+.main-section label {
+  display: block;
+  line-height: 2em;
+  color: #005FCE;
+  color: rgba(0, 95, 206, 0.8);
+}
+
+.main-section fieldset:last-child {
+  margin: 0;
+}
+
+.main-section fieldset input[type="email"], .main-section fieldset input[type="password"] {
+  width: 85%;
+  height: 3em;
+  border-radius: 0.3em;
+  border: 1px solid black;
+  border-color: #797979;
+}
+
+.main-section fieldset input[placeholder="your email address"], .main-section fieldset input[placeholder="password"] {
+  padding: 0 0 0 1em;
+}
+
+.check label {
+  display: inline;
+  padding: 0 5% 0 6.5%;
+  width: 32%;
+  font-size: 85%;
+}
+
+.check {
+  display: inline;
+  padding: 0 5% 0 1%;
+  width: 32%;
+  font-size: 85%;
+}
+
+.check input {
+  padding: 0;
+}
+
+.main-section fieldset input[type="submit"] {
+  padding: 3% 5%;
+  width: 75%;
+  border-radius: 3em;
+  border: none;
+  background-color: #005FCE;
+  background-color: rgba(0, 95, 206, 0.8);
+  color: white;
+}
+
+.main-submit {
+  margin-left: 6% !important;
+}
+
+.forgot a {
+  font-size: 50%;
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  color: #797979;
+}
+
+.main-section fieldset input[type="submit"]:hover {
+  outline: none !important;
+  background-color: #054c9e;
+  background-color: rgba(5, 76, 158, 0.8);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.or {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  padding: 1.5em 0;
+  justify-content: center;
+}
+
+.bar {
+  display: flex;
+  width: 30%;
+  color: black;
+  border: none;
+  background-color: #797979;
+  height: 0.1em
+}
+
+.or span {
+  display: flex;
+  font-weight: 400;
+  font-size: 90%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container button {
+  width: 40%;
+  padding: 2% 7%;
+  border-radius: 2em;
+  margin-bottom: 0.5em;
+  border: none;
+  font-size: 100%;
+}
+
+.facebook button {
+  background-color: #3a6cd4;
+  color: #f3f3f3;
+}
+
+.facebook button:hover {
+  outline: none !important;
+  color: white;
+  background-color: #2a54ab;
+  background-color: rgba(42, 84, 171, 0.8);
+  -webkit-transition: all 0.01s ease-in-out;
+  -moz-transition: all 0.01s ease-in-out;
+  -o-transition: all 0.01s ease-in-out;
+  transition: all 0.01s ease-in-out;
+}
+
+
+.twitter button {
+  background-color: #55acee;
+  color: #f3f3f3;
+}
+
+.twitter button:hover {
+  outline: none !important;
+  color: white;
+  background-color: #0e86e2;
+  background-color: rgba(14, 134, 226, 0.8);
+  -webkit-transition: all 0.01s ease-in-out;
+  -moz-transition: all 0.01s ease-in-out;
+  -o-transition: all 0.01s ease-in-out;
+  transition: all 0.01s ease-in-out;
+}
+
+.google button {
+  background-color: #c72215;
+  color: #f3f3f3;
+}
+
+.google button:hover {
+  outline: none !important;
+  color: white;
+  background-color: #a91206;
+  background-color: rgba(169, 18, 6, 0.8);
+  -webkit-transition: all 0.01s ease-in-out;
+  -moz-transition: all 0.01s ease-in-out;
+  -o-transition: all 0.01s ease-in-out;
+  transition: all 0.01s ease-in-out;
+}
+
+.new {
+  text-align: center;
+  padding: 3% 5%;
+}
+
+.new a {
+  text-decoration: none;
+}
+
+.new a:hover {
+  color: #005FCE;
+  text-decoration-line: underline;
+  font-size: 102%;
+}
+
+
+
+/* Mobile (portrait and landscape)*/
+@media only screen and (max-device-width: 745px) {
+
+.left {
+  width: 100%;
+  display: block;
+  height: 550px;
+  background-image: url(https://res.cloudinary.com/kai123/image/upload/v1568848018/HNG/HNG_task1_z4pzu9.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.main-section {
+  width: 100%;
+  float: none;
+  padding: none;
+}
+
+.left h1 {
+  visibility: collapse;
+}
+
+.welcome {
+  padding: 30px 0 0 0;
+}
+
+.welcome {
+  padding: 50% 0 5% 0;
+}
+
+.main-section div h3 {
+  height: auto;
+  font-size: 300%;
+  padding: 0;
+}
+
+.main-section div p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 150%;
+  text-align: center;
+  font-weight: lighter;
+  padding: 0.3em 0 0 0;
+}
+
+.main-section article {
+  padding: 1% 1% 1% 1%;
+}
+
+.main-section label {
+  font-size: 200%;
+}
+
+.main-email, .main-password {
+  padding: 0;
+}
+
+.main-submit {
+  text-align: center;
+}
+
+.main-section fieldset input[type="email"], .main-section fieldset input[type="password"] {
+  width: 100%;
+  height: 6em;
+}
+
+.main-section fieldset input[type="submit"] {
+  padding: 5% 7%;
+  border-radius: 7em;
+  font-size: 180%;
+}
+
+.container button {
+  width: 70%;
+  padding: 2.7% 7%;
+  border-radius: 7em;
+  margin-bottom: 0.8em;
+  font-size: 180%;
+}
+
+.forgot a {
+  font-size: 80%;
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  color: #797979;
+}
+
+.google button{
+  margin-bottom: 0;
+}
+
+.new {
+  padding: 2% 5%;
+}
+
+
+
+}
