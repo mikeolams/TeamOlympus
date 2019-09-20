@@ -215,3 +215,26 @@ left: 890px;
         list-style-type: none;
         color: red;
       }
+
+.dashboard{
+  margin-top:100px;
+  display: flex;
+  justify-content:center;
+}
+.signout{
+  width: 100px;
+  background-color:#3333cc;
+  color:#fffffffb;
+  font-size:15px;
+  padding: 20px 5px;
+  margin: 8px 3px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align:center;
+}
+
+.signout:hover{
+  background-color:#e97600;
+  color:#fffffffb;
+}
