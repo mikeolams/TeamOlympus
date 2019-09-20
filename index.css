@@ -11,6 +11,10 @@ body{
 .login-container{
   margin: auto
 }
+.svg{
+  margin: auto;
+  padding-top: 8%;
+}
 img{
     /* position: absolute; */
     width:600px;
